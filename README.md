@@ -25,6 +25,7 @@ origin  https://github.com/BoiseState/CS471-Assignments-Workflows.git (fetch)
 origin  https://github.com/BoiseState/CS471-Assignments-Workflows.git (push)
 ```
 
+
 Inspect the history of the repository via:
 - the GitHub [visualization](https://github.com/BoiseState/CS471-Assignments-Workflows/network) and
 - the command line:
