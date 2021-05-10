@@ -1,5 +1,6 @@
 # Workflow Strategies for Integrating/Merging Pull Requests and Establishing Traceability between commits and tasks (and pull requests).
 
+
 ## Step 1 - Create a New Repository
 Using your personal GitHub account [create new a GitHub repository](https://github.com/new) called `CS471WorkflowsHomeworkAssignment`.
 - The following option: `Initialize this repository with a README` should be **disabled**/**unchecked**.
@@ -24,6 +25,7 @@ origin  https://github.com/BoiseState/CS471-Assignments-Workflows.git (fetch)
 origin  https://github.com/BoiseState/CS471-Assignments-Workflows.git (push)
 ```
 
+
 Inspect the history of the repository via:
 - the GitHub [visualization](https://github.com/BoiseState/CS471-Assignments-Workflows/network) and
 - the command line:
@@ -36,6 +38,7 @@ Create local branches from all remote branches:
 ```bash
 $ for remote_branch in `git branch -r | grep -v HEAD | grep -v master`
 do
+
     # the ${remote_branch#"origin/"} means remove (#)
     # the pattern "origin/" from the string variable ${remote_branch}
     # to end up with the name of the local branch
