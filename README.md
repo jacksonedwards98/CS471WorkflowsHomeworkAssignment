@@ -38,6 +38,7 @@ Create local branches from all remote branches:
 ```bash
 $ for remote_branch in `git branch -r | grep -v HEAD | grep -v master`
 do
+
     # the ${remote_branch#"origin/"} means remove (#)
     # the pattern "origin/" from the string variable ${remote_branch}
     # to end up with the name of the local branch
