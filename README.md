@@ -10,9 +10,6 @@ Clone this [CS471-Assignments-Workflows](https://github.com/BoiseState/CS471-Ass
 ```bash
 $ git clone https://github.com/BoiseState/CS471-Assignments-Workflows.git
 
-
-
-
 $ cd CS471-Assignments-Workflows
 ```
 
